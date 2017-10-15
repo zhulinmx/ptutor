@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="18dip"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <com.prtutor.android.view.HandyTextView
+                android:id="@+id/list_course_or"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="15dp"
+                android:gravity="center_vertical"
+                android:text="课程名称"
+                android:textColor="#5a5959"
+                android:textSize="14dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/list_order_iv"
+                android:layout_width="105dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/cursor" />
+
+            <LinearLayout
+                android:layout_width="175dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.57"
+                android:gravity="center_vertical"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <com.prtutor.android.view.HandyTextView
+                        android:id="@+id/list_order_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_marginRight="15dp"
+                        android:gravity="center_vertical"
+                        android:text="评论时间"
+                        android:textColor="#5a5959"
+                        android:textSize="15dp" />
+
+                    <com.prtutor.android.view.HandyTextView
+                        android:id="@+id/list_order_money"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_marginRight="15dp"
+                        android:gravity="center_vertical"
+                        android:text="list_order_money"
+                        android:textColor="#5a5959"
+                        android:textSize="15dp" />
+                </LinearLayout>
+
+                <com.prtutor.android.view.HandyTextView
+                    android:id="@+id/list_order_desc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginRight="15dp"
+                    android:gravity="center_vertical"
+                    android:text="desc"
+                    android:textColor="@color/orange"
+                    android:textSize="11dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/dark_gray" />
+
+</LinearLayout>

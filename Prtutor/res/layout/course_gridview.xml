@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/person_item" >
+
+    <ImageView
+        android:id="@+id/course_gv_img"
+        android:layout_width="120dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/course_tv_buy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/course_gv_img"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/orange"
+        android:textColorHighlight="@color/orange"
+        android:textSize="11sp" />
+
+    <TextView
+        android:id="@+id/course_tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/course_tv_buy"
+        android:layout_centerHorizontal="true"
+        android:text="课程名称" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/course_tv_buy"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal" >
+
+        <com.prtutor.android.view.HandyTextView
+            android:id="@+id/course_tv_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="21dp"
+            android:textColor="@color/gray"
+            android:hint="xxx"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</RelativeLayout>

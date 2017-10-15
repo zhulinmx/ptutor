@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="draw_temp">#ffffffff</item>
+    <drawable name="list_backgroud_normal">@color/white</drawable>
+    <drawable name="transparent">@color/white</drawable>
+</resources>

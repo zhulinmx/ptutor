@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="top"
+    android:gravity="top"
+    android:paddingLeft="10dip"
+    android:paddingRight="10dip" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dip"
+        android:background="@drawable/bg_popwindow"
+        android:orientation="vertical"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip" >
+
+        <RadioGroup
+            android:id="@+id/dialog_sex_sel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RadioButton
+                android:id="@+id/dialog_sex_sel_male"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/bg_tab_center"
+                android:button="@null"
+                android:checked="true"
+                android:gravity="center"
+                android:minHeight="33dip"
+                android:text="男"
+                android:textColor="@color/btn_text_color"
+                android:textSize="14sp" />
+
+            <RadioButton
+                android:id="@+id/dialog_sex_sel_female"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/bg_tab_center"
+                android:button="@null"
+                android:gravity="center"
+                android:minHeight="33dip"
+                android:text="女"
+                android:textColor="@color/btn_text_color"
+                android:textSize="14sp" />
+        </RadioGroup>
+    </LinearLayout>
+
+</LinearLayout>

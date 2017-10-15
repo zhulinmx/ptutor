@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            style="@style/TutorMainLayoutStyle"
+            android:gravity="left" >
+
+            <LinearLayout
+                android:id="@+id/tutor_pro"
+                android:layout_width="fill_parent"
+                android:layout_height="30dip"
+                android:background="@drawable/more_activity_item_selector_bottom_corners"
+                android:orientation="horizontal"
+                android:padding="3sp" >
+
+                <com.prtutor.android.view.HandyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dip"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="10dip"
+                    android:text="基本信息"
+                    android:textColor="@color/gray"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:layout_width="24dip"
+                    android:layout_height="24dip"
+                    android:layout_marginLeft="145dip"
+                    android:background="@drawable/tutor_edit" />
+            </LinearLayout>
+
+            <View style="@style/PersonalLine" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="145dip"
+                android:layout_margin="5dp"
+                android:background="@drawable/more_activity_item_selector_bottom_corners"
+                android:orientation="vertical"
+                android:padding="10sp" >
+
+                <com.prtutor.android.view.RoundImageview
+                    android:id="@+id/pr_rv_tutor_icon"
+                    android:layout_width="70dp"
+                    android:layout_height="80dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="80dip"
+                    android:scaleType="fitCenter"/>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="35dip"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/more_activity_item_selector_bottom_corners"
+                    android:orientation="horizontal"
+                    android:padding="10sp" >
+
+                    <com.prtutor.android.view.HandyTextView
+                        android:id="@+id/hv_tutor_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dip"
+                        android:layout_centerInParent="true"
+                        android:layout_marginLeft="25dip"
+                        android:layout_marginRight="10dip"
+                        android:text="zhulin"
+                        android:textColor="@color/gray"
+                        android:textSize="13sp" />
+
+                    <LinearLayout
+                        android:layout_width="2dip"
+                        android:layout_height="25dip"
+                        android:layout_weight="0"
+                        android:background="@color/blue"
+                        android:orientation="horizontal" />
+
+                    <com.prtutor.android.view.HandyTextView
+                        android:id="@+id/hv_tutor_sex"
+                        android:layout_width="wrap_content"
+                        android:layout_height="25dip"
+                        android:layout_centerInParent="true"
+                        android:layout_marginLeft="10dip"
+                        android:layout_marginRight="10dip"
+                        android:text="女"
+                        android:textColor="@color/gray"
+                        android:textSize="13sp" />
+
+                    <LinearLayout
+                        android:layout_width="2dip"
+                        android:layout_height="25dip"
+                        android:layout_weight="0"
+                        android:background="@color/blue"
+                        android:orientation="horizontal" />
+
+                    <com.prtutor.android.view.HandyTextView
+                        android:id="@+id/hv_tutor_age"
+                        android:layout_width="wrap_content"
+                        android:layout_height="25dip"
+                        android:layout_centerInParent="true"
+                        android:layout_marginLeft="10dip"
+                        android:text="教龄：5年"
+                        android:textColor="@color/gray"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/TutorMainLayoutStyle"
+            android:gravity="left" >
+
+            <LinearLayout
+                android:id="@+id/tutor_desc"
+                android:layout_width="fill_parent"
+                android:layout_height="30dip"
+                android:background="@drawable/more_activity_item_selector_bottom_corners"
+                android:orientation="horizontal"
+                android:padding="3sp" >
+
+                <com.prtutor.android.view.HandyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dip"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="10dip"
+                    android:text="简介"
+                    android:textColor="@color/gray"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:layout_width="24dip"
+                    android:layout_height="24dip"
+                    android:layout_marginLeft="186dip"
+                    android:background="@drawable/tutor_edit" />
+            </LinearLayout>
+
+            <View style="@style/PersonalLine" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dip"
+                android:layout_margin="5dp"
+                android:background="@drawable/more_activity_item_selector_bottom_corners"
+                android:orientation="horizontal"
+                android:padding="10sp" >
+
+                <com.prtutor.android.view.HandyTextView
+                    android:id="@+id/et_profile_desc"
+                    android:layout_width="fill_parent"
+                    android:layout_height="46dip"
+                    android:background="@null"
+                    android:ems="10"
+                    android:imeOptions="actionDone"
+                    android:inputType="textMultiLine"
+                    android:padding="5.0dip"
+                    android:singleLine="true"
+                    android:textColor="@color/gray"
+                    android:textSize="16.0sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout style="@style/TutorMainLayoutStyle" >
+
+            <LinearLayout
+                android:id="@+id/tutor_quotation"
+                android:layout_width="fill_parent"
+                android:layout_height="30dip"
+                android:background="@drawable/more_activity_item_selector_bottom_corners"
+                android:orientation="horizontal"
+                android:padding="3sp" >
+
+                <com.prtutor.android.view.HandyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dip"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="10dip"
+                    android:text="个性语录"
+                    android:textColor="@color/gray"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:layout_width="24dip"
+                    android:layout_height="24dip"
+                    android:layout_marginLeft="150dip"
+                    android:background="@drawable/tutor_edit" />
+            </LinearLayout>
+
+            <View style="@style/PersonalLine" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dip"
+                android:layout_margin="5dp"
+                android:background="@drawable/more_activity_item_selector_bottom_corners"
+                android:orientation="horizontal"
+                android:padding="10sp" >
+
+                <com.prtutor.android.view.HandyTextView
+                    android:id="@+id/et_profile_quotation"
+                    android:layout_width="fill_parent"
+                    android:layout_height="46dip"
+                    android:background="@null"
+                    android:ems="10"
+                    android:imeOptions="actionDone"
+                    android:inputType="textMultiLine"
+                    android:padding="5.0dip"
+                    android:singleLine="true"
+                    android:textColor="@color/gray"
+                    android:textSize="16.0sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

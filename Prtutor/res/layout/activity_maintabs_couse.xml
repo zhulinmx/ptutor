@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:padding="15dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/ic_record_smiling_face"
+                android:drawablePadding="5dp"
+                android:text="课程安排"
+                android:textColor="#333"
+                android:textSize="14sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#EDEDED" >
+
+                <TextView
+                    android:id="@+id/txt_select_month"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:padding="10dp"
+                    android:textSize="14sp" />
+
+                <ImageButton
+                    android:id="@+id/img_select_last_month"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/img_select_next_month"
+                    android:background="?android:actionBarItemBackground"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_arrow_left_gray" />
+
+                <ImageButton
+                    android:id="@+id/img_select_next_month"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="?android:actionBarItemBackground"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_arrow_rigth_gray" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <com.prtutor.android.view.WeekView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp" />
+
+        <com.prtutor.android.view.CalendarView
+            android:id="@+id/calendarView"
+            android:layout_width="match_parent"
+            android:layout_height="230dp" />
+
+        <ListView
+            android:id="@+id/calendar_list_lv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="#f0f0f0"
+            android:dividerHeight="1dp"
+            android:fadingEdge="none"
+            android:listSelector="#00000000"
+            android:scrollbarStyle="outsideOverlay"
+            android:scrollingCache="false" />
+    </LinearLayout>
+
+</LinearLayout>

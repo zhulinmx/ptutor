@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <RadioGroup
+            android:id="@+id/rg_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="94dp"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/selector_top"
+                android:button="@null"
+                android:text="已评价"
+                android:textColor="@color/gray"
+                android:textSize="17sp" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/selector_top"
+                android:button="@null"
+                android:text="已报名"
+                android:textColor="@color/gray"
+                android:textSize="17sp" />
+        </RadioGroup>
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/order_tutor_lv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="#f0f0f0"
+        android:dividerHeight="5dp"
+        android:fadingEdge="none"
+        android:listSelector="#00000000"
+        android:scrollbarStyle="outsideOverlay"
+        android:scrollingCache="false" />
+
+</FrameLayout>

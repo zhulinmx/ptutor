@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <com.prtutor.android.view.RoundImageview
+            android:id="@+id/list_guanzhu_rv_img"
+            android:layout_width="65dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="11dp"
+            android:src="@drawable/tutor_img" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <com.prtutor.android.view.HandyTextView
+                    android:id="@+id/list_guanzhu_iv_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:gravity="center_vertical"
+                    android:text="list_order_time"
+                    android:textColor="@color/gray"
+                    android:textSize="15dp" />
+
+                <ImageView
+                    android:layout_width="14dp"
+                    android:layout_height="14dp"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/tutor_toend" />
+            </LinearLayout>
+
+            <com.prtutor.android.view.HandyTextView
+                android:id="@+id/list_guanzhu_iv_qua"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginRight="15dp"
+                android:gravity="center_vertical"
+                android:text="list_order_money"
+                android:textColor="@color/dark_gray"
+                android:textSize="13dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/dark_gray" />
+
+</LinearLayout>

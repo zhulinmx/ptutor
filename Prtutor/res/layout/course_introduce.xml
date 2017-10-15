@@ -1,0 +1,92 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            style="@style/TutorSettingLayoutStyle"
+            android:gravity="left" >
+
+            <com.prtutor.android.view.HandyTextView
+                android:id="@+id/cr_introduce"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="课程简介"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <com.prtutor.android.view.HandyTextView
+            android:id="@+id/cr_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:text="huhu"
+            android:textColor="@color/orange"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <com.prtutor.android.view.HandyTextView
+        android:id="@+id/cr_desc"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dip"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        style="@style/TutorSettingLayoutStyle"
+        android:gravity="left" 
+        android:layout_width="91dp">
+
+        <com.prtutor.android.view.HandyTextView
+            android:id="@+id/cr_tutor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="授课老师"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <com.prtutor.android.view.RoundImageview
+            android:id="@+id/course_rv_tutor_icon"
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="10dip"
+            android:clickable="true"
+            android:src="@drawable/tutor_img" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <com.prtutor.android.view.HandyTextView
+                android:id="@+id/tv_tutor_Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:textSize="18sp" />
+
+            <com.prtutor.android.view.HandyTextView
+                android:id="@+id/tv_tutor_desc"
+                android:layout_width="220dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_marginTop="5dip"
+                android:inputType="textMultiLine"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

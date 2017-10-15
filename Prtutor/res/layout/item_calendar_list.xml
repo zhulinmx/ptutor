@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <com.prtutor.android.view.HandyTextView
+            android:id="@+id/calendar_course_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="20170526"
+            android:textColor="@color/title_bg"
+            android:textSize="13dp" />
+
+        <com.prtutor.android.view.HandyTextView
+            android:id="@+id/calendar_course_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="6dp"
+            android:gravity="center_vertical"
+            android:text="08:00-10:00"
+            android:textColor="@color/dark_gray"
+            android:textSize="11dp" />
+    </LinearLayout>
+
+    <com.prtutor.android.view.HandyTextView
+        android:id="@+id/calendar_course_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:gravity="center_vertical"
+        android:text="hdfhdkfg"
+        android:textColor="@color/title_bg"
+        android:textSize="17dp" />
+
+</LinearLayout>

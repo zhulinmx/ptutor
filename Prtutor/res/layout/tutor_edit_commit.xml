@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:background="@color/blue" >
+
+        <ImageButton
+            android:id="@+id/tutor_edit_back"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="18dp"
+            android:background="@drawable/icon_back" />
+
+        <com.prtutor.android.view.HandyTextView
+            android:id="@+id/tv_tutor_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="编辑简介"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btn_tutor_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="270dip"
+            android:background="@color/blue"
+            android:text="完成"
+            android:textColor="@color/white"
+            android:textSize="17sp" />
+    </RelativeLayout>
+
+    <LinearLayout style="@style/TutorMainLayoutStyle" >
+
+        <EditText
+            android:id="@+id/et_tutor_commit"
+            android:layout_width="fill_parent"
+            android:layout_height="95dp"
+            android:layout_weight="0.97"
+            android:background="@null"
+            android:ems="10"
+            android:imeOptions="actionDone"
+            android:inputType="textMultiLine"
+            android:padding="5.0dip"
+            android:singleLine="true"
+            android:textColor="@color/gray"
+            android:textSize="16.0sp" >
+
+            <requestFocus />
+
+        </EditText>
+    </LinearLayout>
+
+</LinearLayout>

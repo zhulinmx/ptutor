@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/stu_select"
+        android:layout_width="250dip"
+        android:layout_height="50dip"
+        android:layout_gravity="center"
+        android:layout_marginTop="90dip"
+        android:background="@drawable/role_selector"
+        android:clickable="true"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="21dp"
+            android:background="@drawable/stu_toendwhite"
+            android:gravity="center_vertical" />
+
+        <TextView
+            style="@style/fragment_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="29dp"
+            android:clickable="false"
+            android:text="我是学生"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/teach_select"
+        android:layout_width="250dip"
+        android:layout_height="50dip"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dip"
+        android:background="@drawable/role_selector"
+        android:clickable="true"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="21dp"
+            android:background="@drawable/role_select_tutor"
+            android:gravity="center_vertical" />
+
+        <TextView
+            style="@style/fragment_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="29dp"
+            android:clickable="false"
+            android:text="我是老师"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <com.prtutor.android.view.WaveView
+        android:id="@+id/wave"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>

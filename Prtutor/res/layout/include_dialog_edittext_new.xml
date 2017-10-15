@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/dialog_edittext_old"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background_normal"
+        android:hint="输入旧密码"
+        android:imeOptions="actionNext"
+        android:inputType="textPassword"
+        android:maxLength="16"
+        android:singleLine="true" >
+
+        <requestFocus />
+    </EditText>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/dark_gray" />
+
+    <EditText
+        android:id="@+id/dialog_edittext_new"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/background_normal"
+        android:hint="输入新密码"
+        android:imeOptions="actionDone"
+        android:inputType="textPassword"
+        android:maxLength="16"
+        android:singleLine="true" >
+    </EditText>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/dark_gray" />
+
+</LinearLayout>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:background="@color/blue" >
+
+        <ImageButton
+            android:id="@+id/tutor_setting_back"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="18dp"
+            android:background="@drawable/icon_back" />
+
+        <com.prtutor.android.view.HandyTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="信息修改"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ly_tutor_name"
+        style="@style/TutorSettingLayoutStyle"
+        android:gravity="left" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:text="@string/info_tutorname"
+            android:textColor="@color/text_color"
+            android:textSize="21sp" />
+
+        <TextView
+            android:id="@+id/tutor_info_tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="185dip"
+            android:hint="name"
+            android:textColor="@color/blue"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ly_tutor_sex"
+        style="@style/TutorSettingLayoutStyle"
+        android:gravity="left" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:text="@string/info_sex"
+            android:textColor="@color/text_color"
+            android:textSize="21sp" />
+
+        <TextView
+            android:id="@+id/tutor_info_tv_sex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="185dip"
+            android:hint="sex"
+            android:textColor="@color/blue"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ly_tutor_teachAge"
+        style="@style/TutorSettingLayoutStyle"
+        android:gravity="left" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:text="@string/info_teachAge"
+            android:textColor="@color/text_color"
+            android:textSize="21sp" />
+
+        <TextView
+            android:id="@+id/tutor_info_tv_teachAge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="185dip"
+            android:hint="x年"
+            android:textColor="@color/blue"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ly_tutor_pwd"
+        style="@style/TutorSettingLayoutStyle"
+        android:gravity="left" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:text="@string/info_pwd"
+            android:textColor="@color/text_color"
+            android:textSize="21sp" />
+
+        <TextView
+            android:id="@+id/tutor_info_tv_pwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="187dip"
+            android:hint="***"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ly_tutor_location"
+        style="@style/TutorSettingLayoutStyle"
+        android:gravity="left" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:text="@string/info_loc"
+            android:textColor="@color/text_color"
+            android:textSize="21sp" />
+
+        <TextView
+            android:id="@+id/tutor_info_tv_loc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="50dip"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</LinearLayout>
