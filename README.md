@@ -7,3 +7,5 @@
 ## 功能
 导师说我是高仿
 我不只知道是赞美还是讽刺，只好苦涩地说，被你看出来了
+![](https://github.com/zhulinmx/ptutor/blob/project_img/Screenshot_2017-05-29-13-16-22.png)  
+
