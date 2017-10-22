@@ -38,7 +38,6 @@ logo设计理念来自于尔康手<br>
 #### 个人信息
 ![](https://github.com/zhulinmx/ptutor/blob/project_img/Screenshot_2017-05-30-00-02-58.png) <br>
 ![](https://github.com/zhulinmx/ptutor/blob/project_img/Screenshot_2017-05-28-20-12-51.png) <br>
-![](https://github.com/zhulinmx/ptutor/blob/project_img/Screenshot_2017-05-30-00-02-38.png) <br>
 
 
 
