@@ -20,18 +20,18 @@ logo设计理念来自于尔康手<br>
 下面我分别解释两个角色的大体功能：
 ### 学生端
 以学生身份进入客户端包括的功能有注册与登录、注销登录、查询课程、查看课程、收藏课程、订购课程、评价课程、个人信息管理、课程安排 <br>
-主页面
+#### 主页面
 ![](https://github.com/zhulinmx/ptutor/blob/project_img/Screenshot_2017-05-28-20-11-24.png) <br>
 ![](https://github.com/zhulinmx/ptutor/blob/project_img/Screenshot_2017-05-29-13-30-11.png) <br>
 ![](https://github.com/zhulinmx/ptutor/blob/project_img/Screenshot_2017-05-29-13-50-19.png) <br>
-模糊搜索 <br>
+#### 模糊搜索
 ![](https://github.com/zhulinmx/ptutor/blob/project_img/Screenshot_2017-05-30-13-43-43.png) <br>
-课程详情 <br>
+#### 课程详情
 ![](https://github.com/zhulinmx/ptutor/blob/project_img/Screenshot_2017-05-28-20-13-55.png) <br>
 ![](https://github.com/zhulinmx/ptutor/blob/project_img/Screenshot_2017-05-29-13-30-40.png) <br>
-课程相关老师 <br>
+#### 课程相关老师
 ![](https://github.com/zhulinmx/ptutor/blob/project_img/Screenshot_2017-05-28-20-12-51.png) <br>
-个人信息</br>
+#### 个人信息
 ![](https://github.com/zhulinmx/ptutor/blob/project_img/Screenshot_2017-05-30-00-02-58.png) <br>
 ![](https://github.com/zhulinmx/ptutor/blob/project_img/Screenshot_2017-05-28-20-12-51.png) <br>
 ![](https://github.com/zhulinmx/ptutor/blob/project_img/Screenshot_2017-05-30-00-02-38.png) <br>
