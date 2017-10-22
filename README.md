@@ -31,7 +31,7 @@ logo设计理念来自于尔康手<br>
 ![](https://github.com/zhulinmx/ptutor/blob/project_img/Screenshot_2017-05-29-13-30-40.png) <br>
 课程相关老师 <br>
 ![](https://github.com/zhulinmx/ptutor/blob/project_img/Screenshot_2017-05-28-20-12-51.png) <br>
-<p>个人信息</p>
+个人信息</br>
 ![](https://github.com/zhulinmx/ptutor/blob/project_img/Screenshot_2017-05-30-00-02-58.png) <br>
 ![](https://github.com/zhulinmx/ptutor/blob/project_img/Screenshot_2017-05-28-20-12-51.png) <br>
 ![](https://github.com/zhulinmx/ptutor/blob/project_img/Screenshot_2017-05-30-00-02-38.png) <br>
