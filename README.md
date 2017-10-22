@@ -29,12 +29,18 @@ logo设计理念来自于尔康手<br>
 #### 课程详情
 ![](https://github.com/zhulinmx/ptutor/blob/project_img/Screenshot_2017-05-28-20-13-55.png) <br>
 ![](https://github.com/zhulinmx/ptutor/blob/project_img/Screenshot_2017-05-29-13-30-40.png) <br>
+#### 购课-->生成订单
+![](https://github.com/zhulinmx/ptutor/blob/project_img/Screenshot_2017-05-30-00-10-55.png) <br>
+#### 取消订单
+![](https://github.com/zhulinmx/ptutor/blob/project_img/Screenshot_2017-05-01-02-25-24.png) <br>
 #### 课程相关老师
 ![](https://github.com/zhulinmx/ptutor/blob/project_img/Screenshot_2017-05-28-20-12-51.png) <br>
 #### 个人信息
 ![](https://github.com/zhulinmx/ptutor/blob/project_img/Screenshot_2017-05-30-00-02-58.png) <br>
 ![](https://github.com/zhulinmx/ptutor/blob/project_img/Screenshot_2017-05-28-20-12-51.png) <br>
 ![](https://github.com/zhulinmx/ptutor/blob/project_img/Screenshot_2017-05-30-00-02-38.png) <br>
+
+
 
 
 
